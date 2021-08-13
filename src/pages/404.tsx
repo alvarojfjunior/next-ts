@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export const Mika = (): JSX.Element => (
+export const Home = (): JSX.Element => (
   <div className="container">
     <Head>
       <title>Create Next App</title>
@@ -8,14 +8,13 @@ export const Mika = (): JSX.Element => (
     </Head>
 
     <main>
-        <h1> Mika's page <a href="/store"> Go to second page </a> </h1>
+      <h1> Some thing is wrong. Error 404. </h1>
     </main>
 
     <footer>
-
-
+      <h1> Footer </h1>
     </footer>
   </div>
 )
 
-export default Mika
+export default Home
